@@ -7,6 +7,9 @@ Created on Sun Jun  4 18:55:26 2023
 
 #Clustering with K-means
 #Understanding centroid-based algorithms
+### DO NOT RUN WITH KMEANS
+### DEPRICATED -> MEM LEAK
+
 
 import numpy as np
 A = np.array([165, 55, 70])
