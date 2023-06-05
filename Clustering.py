@@ -62,6 +62,13 @@ plt.ylabel('Rate of change of inertia')
 plt.show()
 
 #Clustering big data
+
+###########################################
+#C:\ProgramData\anaconda3\lib\site-packages\sklearn\cluster\_kmeans.py:1382: UserWarning: KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=8.
+  #warnings.warn(
+      
+#############################################
+
 k = 10
 clustering = KMeans(n_clusters=k, 
                     n_init=10, random_state=1)
